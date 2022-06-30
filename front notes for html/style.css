@@ -1,0 +1,38 @@
+*{
+    box-sizing:border-box;
+}
+body{ 
+    background-color: rgb(122, 203, 240);
+}
+h1,h2{ color: black;}
+p{
+    color:rgb(208, 255, 0);
+    font-size: 32px;
+}
+h2{font-size: smaller;}
+.centretext{
+    text-align: center ; 
+}
+h1{
+    color: darkmagenta;
+    text-decoration: underline;
+}
+nav a{
+    color: beige;
+    text-decoration: none;
+    font-size: 30px;
+}
+a:hover{
+    color: blueviolet;
+}
+.content{
+    width: 400px; 
+margin-left:auto;
+margin-right:auto;
+display:block;
+height 700px;
+width 540px;
+background-color: brown;
+padding: 10px;
+
+}
