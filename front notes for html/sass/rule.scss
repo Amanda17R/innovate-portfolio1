@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poiret+One&display=swap");
+
+/* imported font families: "Poiret One", cursive; font-family: "Josefin Sans", sans-serif;    */
+
+$mainAccent:#7fed25;
+$headingFont:"Poiret One";
+$contentFont:"Josefin Sans";
+@mixin heading($special) {  font-family: "Poiret One", cursive;
+    color: $special;
+    text-align: center;
+    margin-top: 0px;
+
+    
+}

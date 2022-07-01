@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face {
+    font-family: amandafont;
+    src: url('Airthan-age.ttf');
+}
 *{
     box-sizing:border-box;
-}
+    font-family: 'amandafont', serif;
+    }
 body{ 
     background-color: rgb(122, 203, 240);
 }
@@ -22,6 +28,7 @@ nav a{
     text-decoration: none;
     font-size: 30px;
 }
+
 a:hover{
     color: blueviolet;
 }
@@ -30,8 +37,8 @@ a:hover{
 margin-left:auto;
 margin-right:auto;
 display:block;
-height 700px;
-width 540px;
+height: 700px;
+width: 540px;
 background-color: brown;
 padding: 10px;
 
