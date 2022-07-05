@@ -1,0 +1,31 @@
+body{
+    color:black;
+}.desktop, .mobile {
+    display: none;
+}
+@media (orientation: landscape) {
+    .desktop {
+    display: inline-block;
+    }
+} @media (orientation: portrait) {
+    body{
+        background-color: black;
+    }
+    .mobile {
+    display: inline-block;
+    }        
+    .title{
+        color: white;
+        background-color: black;
+        text-align: center;
+        padding: 5%;}  
+    .subtitle{
+            color:yellow;
+            background-color: white;
+            text-align: center;
+            padding: 5%;
+        }
+
+
+}
+  
