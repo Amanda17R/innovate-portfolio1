@@ -34,3 +34,35 @@ function sendAlert() {
     alert(location.hostname);
 }
 
+function darkmode(){
+    let element = document. body;
+    letmainbox = document.getElementsByClassName ("mainbox");
+    let mainText = document.getElementsByClassName
+    ("mainbox");
+element.classList.toggle("darkMode");
+
+for (const i of mainbox){
+    i.classList.toggle("darkMode")
+}
+for (const x of mainText) {
+    x.classList.toggle("darkMode")
+}
+if (state !=="darkMode"){
+    localStorage.setItem("state","dark")
+}else {
+    localStorage.setItem( "state","light")
+}
+}
+function darkcheck(){
+    let element = document. body;
+    letmainbox = document.getElementsByClassName ("mainbox");
+    let mainText = document.getElementsByClassName
+    ("mainbox");
+element.classList.toggle("darkMode");
+}
+for (const i of mainbox){
+    i.classList.toggle("darkMode")
+}
+for (const x of mainText) {
+    x.classList.toggle("darkMode")
+}

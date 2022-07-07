@@ -1,4 +1,8 @@
-countries = ["England", "Spain", "France","Germany","Italy" ]
+fav_songs = ["wish you were here ","comfortably numb","every you every me","cant feel my face"]
+
+fav_songs = {}
+
+
 
 Capitals = {"name":"countries",capitals 
  "England": "London",
@@ -6,4 +10,3 @@ Capitals = {"name":"countries",capitals
  "France": "Paris",
  "Germany": "Berlin",
  "Italy": "Rome"
- }
