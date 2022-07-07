@@ -5,7 +5,7 @@ app = Flask(__name__)
 app.register_blueprint(my_view)
 @app.errorhandler(404)
 def page_not_found(e):
-    return render_template("404.html");e=e
+    return render_template("404.html", e=e)
 
 
 if __name__=="__main__":

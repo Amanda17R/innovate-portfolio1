@@ -1,7 +1,7 @@
 from flask import Flask, render_template, Blueprint,redirect,url_for 
 my_view = Blueprint('my_view',__name__)
 
-@my_view.route('/index')
+@my_view.route('/')
 def index():
     return render_template("index.html")
 
@@ -22,11 +22,11 @@ def page3():
     return render_template("page3.html")
 
 @my_view.route('/page4')
-def page4 ():
+def page4():
     return render_template("page4.html")
 
 @my_view.route('/page5')
-def page5 ():
+def page5():
     return render_template("page5.html")
     
 @my_view.route('/javascript')
